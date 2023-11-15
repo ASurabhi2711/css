@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e2d3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c4b7a6;
+    color: #d5f4e6;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.lesgo {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto;   /* Center the container horizontally */
+}
+
+.lesgo img {
+    max-width: 100%;  /* Make sure images don't exceed the container's width */
+    height: auto;     /* Maintain the aspect ratio */
+    display: block;   /* Remove extra space under images */
+    margin: 10px 0;   /* Add spacing between images if desired */
+}
+
+h2 {
+    color: #b9936c;
+    font-size: 24px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
